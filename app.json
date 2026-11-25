@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Aapka PG",
+    "slug": "aapka-pg",
+    "scheme": "aapkapg",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aapkapg.app"
+    },
+    "android": {
+      "package": "com.aapkapg.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#F8FAFC",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
